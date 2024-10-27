@@ -93,7 +93,7 @@ export default function Bubble({
             <div className="flex gap-3">
               <span className="block font-bold text-teal-400">VitaBeam</span>
             {!isFirst && (
-              <div className="flex gap-2 top-[1rem] left-20 absolute">
+              <div className="flex gap-2 top-[1rem] left-20 pl-3 absolute">
                 <button
                   id="rateDown"
                   className="hover:scale-105 pointer"
